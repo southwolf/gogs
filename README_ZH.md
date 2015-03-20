@@ -7,6 +7,13 @@ Gogs(Go Git Service) 是一个基于 Go 语言的自助 Git 服务。
 
 ##### 当前版本：0.5.16 Beta
 
+### 注意事项 
+
+- 测试站 [try.gogs.io](https://try.gogs.io) 的数据仅用于测试目的，已于 **2015年1月28日** 重置，而且以后还会多次重置。请 **不要** 将重要数据存放于该网站。
+- 测试站 [try.gogs.io](https://try.gogs.io) 运行在 `dev` 分支.
+- 在提交 Issue 和发布 Pull Request 之前，请 **务必** 阅读 [CONTRIBUTING.md](CONTRIBUTING.md)
+- 如果你发现项目中存在安全漏洞，请私下与 **u@gogs.io** 交流。谢谢！
+
 ## 开发目的
 
 Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 **所有平台**，包括 Linux、Mac OS X 以及 Windows。
